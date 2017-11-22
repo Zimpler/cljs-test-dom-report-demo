@@ -1,0 +1,15 @@
+language: clojure
+lein: 2.8.1
+# Use container-based architecture.
+# See: http://docs.travis-ci.com/user/workers/container-based-infrastructure/
+sudo: false
+
+jdk:
+  - oraclejdk8
+
+cache:
+  directories:
+    - $HOME/.m2
+    - $HOME/.lein
+
+script: lein doo phantom test once
