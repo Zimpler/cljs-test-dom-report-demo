@@ -1,4 +1,4 @@
-# cljs-test-dom-report-demo
+# cljs-test-dom-report-demo [![Build Status](https://travis-ci.com/Zimpler/cljs-test-dom-report-demo.svg?branch=master)](https://travis-ci.org/Zimpler/cljs-test-dom-report-demo)
 
 Demo on how to get figwheel live testing along with phantomjs testing
 for CI.
